@@ -3,7 +3,7 @@
   background-color: #FFFFFF;
   border-top-left-radius: 100 0;
   border-bottom-left-radius: 0 100;
-  border-left-color: #5CA5A5;
+  border-left-color: transparent;
   border-left-style: solid;
   border-left-width: 5px;
   border-radius: 5px;
@@ -11,6 +11,10 @@
   margin-bottom: 24px;
   padding: 32px 40px;
   box-shadow: 0 15px 20px -5px rgba(13, 113, 130, 0.15);
+}
+
+.jobAdContainer.featured {
+  border-left-color: #5CA5A5;
 }
 
 .jobDescription {

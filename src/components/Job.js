@@ -5,7 +5,7 @@ import './Job.css';
 
 function Job({ ad }) {
   return (
-    <div className='jobAdContainer'>
+    <div className={`jobAdContainer ${ad.featured ? 'featured' : ''}`}>
       <div className='jobDescription'>
         <JobDescription ad={ad} />
       </div>
