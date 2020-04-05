@@ -10,11 +10,11 @@ export async function getData(filters) {
           let filteredData = [];
           filteredData = data.filter(ad => {
             let features = [ad.role, ad.level, ...(ad.languages || []), ...(ad.tools || [])];
-            return filters.some(f => features.indexOf(f) >= 0);
+            return filters.reduce((acc, f) => acc && features.indexOf(f) >= 0, true);
           });
           resolve(filteredData);
         }
-      }, 500);
+      }, 100);
     });
   } catch(err) {
     console.error(err)

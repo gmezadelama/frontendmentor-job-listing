@@ -1,12 +1,37 @@
 .filterBarContainer{
   margin-bottom: 40px;
   height: 72px;
-  box-shadow: 0 15px 20px -5px rgba(13, 113, 130, 0.15);
-  border-radius: 5px;
 }
 
 .filterBar {
   background-color: white;
   border-radius: 5px;
-  height: 100%;
+  padding: 12px 40px;
+  display: flex;
+  box-shadow: 0 15px 20px -5px rgba(13, 113, 130, 0.15);
+}
+
+.filterBar.inactive {
+  display: none;
+}
+
+.filterTags {
+  flex: 1 1;
+  /* display: grid; */
+  /* gap: 16px; */
+}
+
+.clearTags {
+  flex: 0 0 40px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  color: #5CA5A5;
+  margin: auto 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.clearTags:hover {
+  opacity: 0.7;
 }

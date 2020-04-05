@@ -1,0 +1,35 @@
+.filterTag {
+  display: inline-block;
+  border-radius: 4px;
+  margin: 8px 16px;
+}
+
+.filterTagLabel {
+  display: inline-block;
+  background-color: rgba(92, 165, 165, 0.1);
+  color: rgb(92, 165, 165);
+  line-height: 24px;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 4px 8px;
+  vertical-align: top;
+  border-radius: 4px 0 0 4px;
+}
+
+.filterTagRemoveButton {
+  display: inline-block;
+  background-color: rgb(92, 165, 165);
+  cursor: pointer;
+  color: #fff;
+  padding: 2px 9px 6px;
+  vertical-align: top;
+  border-radius: 0 4px 4px 0;
+}
+
+.filterTagRemoveButton img {
+  margin: 6px 0 0;
+}
+
+.filterTagRemoveButton:hover {
+  background-color: #2B3939;
+}

@@ -4,7 +4,8 @@
 }
 
 .companyImage {
-  margin: auto 24px auto 0;
+  margin: 0 24px;
+  max-height: 88px;
 }
 
 .companyImage img {
@@ -28,6 +29,7 @@
 
 .row {
   margin-bottom: 8px;
+  line-height: 24px;
 }
 
 .newAd {
@@ -57,16 +59,15 @@
 }
 
 .position {
-  line-height: 24px;
   font-weight: 700;
-  color: #5CA5A5;
+  color: #2B3939;
   font-size: 18px;
 }
 
 .row:nth-of-type(3) {
   font-size: 15px;
   color: #7C8F8F;
-  line-height: 24px;
+  margin-bottom: 0;
 }
 
 .adCondition {
