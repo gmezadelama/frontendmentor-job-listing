@@ -1,0 +1,12 @@
+.filterBarContainer{
+  margin-bottom: 40px;
+  height: 72px;
+  box-shadow: 0 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+}
+
+.filterBar {
+  background-color: white;
+  border-radius: 5px;
+  height: 100%;
+}

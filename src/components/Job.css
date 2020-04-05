@@ -1,0 +1,24 @@
+.jobAdContainer {
+  display: flex;
+  background-color: #FFFFFF;
+  border-top-left-radius: 100 0;
+  border-bottom-left-radius: 0 100;
+  border-left-color: #5CA5A5;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-radius: 5px;
+  height: 88px;
+  margin-bottom: 24px;
+  padding: 32px 40px;
+  box-shadow: 0 15px 20px -5px rgba(13, 113, 130, 0.15);
+}
+
+.jobDescription {
+  flex: 1 1;
+  vertical-align: top;
+}
+
+.featureTags {
+  flex: 1 1;
+  flex-wrap: wrap;
+}
