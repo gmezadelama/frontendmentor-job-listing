@@ -18,12 +18,12 @@
 }
 
 .jobDescription {
-  flex: 50%;
+  flex: 1 1;
   vertical-align: top;
 }
 
 .jobFilterTags {
-  flex: 45%;
+  flex: 1 1;
   flex-wrap: wrap;
   padding: 20px 0;
 }
@@ -35,10 +35,6 @@
     padding: 32px 40px;
   }
   .jobDescription {
-    flex: 1 1;
     border-bottom: solid 1px hsl(180, 10%, 74%);
-  }
-  .jobFilterTags {
-    flex: 1 1;
   }
 }
