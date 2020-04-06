@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Spartan;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --ThemePrimaryColor: hsl(180, 29%, 50%);
+  --ThemeNeutralColor: hsl(0, 0%, 100%);
+  --BackgroundColor: hsl(180, 52%, 96%);
+  --FilterTabletsColor: hsl(180, 31%, 95%);
+  --FilterTabletsDarkColor: hsl(180, 14%, 20%);
+  --FontLightColor: hsl(180, 8%, 52%);
+  --FontDarkColor: hsl(180, 14%, 20%);
+  --FontNormalWeight: 500;
+  --FontBoldWeight: 700;
+  --FontFamily: Spartan;
+  --FontSizeL: 18px;
+  --FontSizeM: 15px;
+  --FontSizeS: 13px;
+  --FontSizeXS: 11px;
 }

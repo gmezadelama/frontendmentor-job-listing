@@ -4,7 +4,7 @@
 }
 
 .filterBar {
-  background-color: white;
+  background-color: var(--ThemeNeutralColor);
   border-radius: 5px;
   padding: 12px 40px;
   display: flex;
@@ -17,16 +17,14 @@
 
 .filterTags {
   flex: 1 1;
-  /* display: grid; */
-  /* gap: 16px; */
 }
 
 .clearTags {
   flex: 0 0 40px;
-  font-weight: 700;
-  font-size: 13px;
+  font-weight: var(--FontBoldWeight);
+  font-size: var(--FontSizeS);
   line-height: 24px;
-  color: #5CA5A5;
+  color: var(--ThemePrimaryColor);
   margin: auto 0;
   cursor: pointer;
   text-decoration: underline;
