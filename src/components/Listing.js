@@ -23,6 +23,7 @@ function Listing(onAddFilter) {
      {
       data.map(ad => (
         <Job
+          key={ad.id}
           ad={ad}
           onAddFilter={onAddFilter}
         />

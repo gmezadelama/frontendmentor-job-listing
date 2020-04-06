@@ -7,8 +7,8 @@ function TagSection({ ad: {role, level, languages, tools} } ) {
   return (
     <div className='tagSectionContainer'>
       {
-        features.map(f => (
-          <FeatureTag key={f} feature={f} />
+        features.map((f, index) => (
+          <FeatureTag key={index} feature={f} />
         ))
       }
     </div>

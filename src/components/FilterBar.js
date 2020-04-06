@@ -14,8 +14,8 @@ function FilterBar() {
       <div className={`filterBar ${inactiveState}`}>
         <div className='filterTags'>
           {
-            filters.map(f => (
-              <FilterTag filter={f} />
+            filters.map((f, index) => (
+              <FilterTag key={index} filter={f} />
             ))
           }
         </div>
