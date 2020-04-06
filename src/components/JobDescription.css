@@ -84,3 +84,16 @@
   border-radius: 100px;
   border-width: 4px;
 }
+
+@media screen and (max-width: 768px) {
+  .jobDescriptionContainer {
+    flex-direction: column;
+    padding-bottom: 16px;
+  }
+  .companyImage {
+    margin: -80px 24px 20px 0;
+  }
+  .row {
+    margin-bottom: 16px;
+  }
+}

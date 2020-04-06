@@ -9,7 +9,7 @@
   font-size: 13px;
   padding: 4px 8px;
   cursor: pointer;
-  margin: 28px 16px;
+  margin: 8px 16px;
 }
 
 .filterButton:hover {
@@ -21,4 +21,10 @@
   cursor: initial;
   background-color: rgb(92, 165, 165);
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .filterButton {
+    margin-left: 0;
+  }
 }

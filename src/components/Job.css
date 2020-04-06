@@ -25,4 +25,15 @@
 .featureTags {
   flex: 1 1;
   flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .jobAdContainer {
+    margin-bottom: 124px;
+    flex-direction: column;
+  }
+  .jobDescription {
+    border-bottom: solid 1px #B7C4C4;
+  }
 }
