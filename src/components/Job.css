@@ -9,7 +9,7 @@
   border-radius: 5px;
   min-height: 88px;
   margin-bottom: 24px;
-  padding: 32px 40px;
+  padding: 32px 0;
   box-shadow: 0 15px 20px -5px hsla(189, 82%, 28%, 0.15);
 }
 
@@ -18,12 +18,12 @@
 }
 
 .jobDescription {
-  flex: 1 1;
+  flex: 50%;
   vertical-align: top;
 }
 
 .jobFilterTags {
-  flex: 1 1;
+  flex: 45%;
   flex-wrap: wrap;
   padding: 20px 0;
 }
@@ -32,8 +32,13 @@
   .jobAdContainer {
     margin-bottom: 124px;
     flex-direction: column;
+    padding: 32px 40px;
   }
   .jobDescription {
+    flex: 1 1;
     border-bottom: solid 1px hsl(180, 10%, 74%);
+  }
+  .jobFilterTags {
+    flex: 1 1;
   }
 }
