@@ -1,6 +1,6 @@
 import React from 'react';
 import JobDescription from './JobDescription';
-import TagSection from './TagSection';
+import JobFiltersSection from './JobFiltersSection';
 import './Job.css';
 
 function Job({ ad }) {
@@ -9,8 +9,8 @@ function Job({ ad }) {
       <div className='jobDescription'>
         <JobDescription ad={ad} />
       </div>
-      <div className='featureTags'>
-        <TagSection ad={ad} />
+      <div className='jobFilterTags'>
+        <JobFiltersSection ad={ad} />
       </div>
       
     </div>

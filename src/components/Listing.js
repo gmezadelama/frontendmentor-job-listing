@@ -2,7 +2,6 @@ import React, { useState, useEffect, useContext } from 'react';
 import { DataContext } from '../context/DataContext';
 import { FilterContext } from '../context/FilterContext';
 import Job from './Job';
-import './Listing.css';
 
 function Listing(onAddFilter) {
   const [data, setData] = useState([]);
@@ -17,9 +16,8 @@ function Listing(onAddFilter) {
     }
     fetchData();
   }, [filters, getData]);
-  console.log('job data', data);
   return (
-    <div className='listingContainer'>
+    <div>
      {
       data.map(ad => (
         <Job

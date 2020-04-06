@@ -1,4 +1,4 @@
-.filterButton {
+.jobFilterButton {
   display: inline-block;
   background-color: var(--FilterTabletsColor);
   color: var(--ThemePrimaryColor);
@@ -12,19 +12,19 @@
   margin: 8px 16px;
 }
 
-.filterButton:hover {
+.jobFilterButton:hover {
   background-color: var(--ThemePrimaryColor);
   color: var(--ThemeNeutralColor);
 }
 
-.filterButton.selected{
+.jobFilterButton.selected{
   cursor: initial;
   background-color: var(--ThemePrimaryColor);
   color: var(--ThemeNeutralColor);
 }
 
 @media screen and (max-width: 768px) {
-  .filterButton {
+  .jobFilterButton {
     margin-left: 0;
   }
 }

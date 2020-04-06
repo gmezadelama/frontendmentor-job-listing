@@ -5,7 +5,7 @@ function JobDescription({ ad }) {
   return (
     <div className='jobDescriptionContainer'>
       <div className='companyImage'>
-        <img src={ad.logo} />
+        <img src={ad.logo} alt={ad.company} />
       </div>
       <div className='jobInfo'>
         <div className='row'>
